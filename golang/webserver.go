@@ -3,7 +3,6 @@ package main
 import(
     "io"
     "net/http"
-    "html/template"
 )
 
 func hello(w http.ResponseWriter, r *http.Request){
