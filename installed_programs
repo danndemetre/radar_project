@@ -9,3 +9,7 @@ sudo apt-get install php5-cli php5-curl mysql-server mysql-client php5-mysql apa
 sudo apt-get install phpmyadmin
 sudo php5enmod mcrypt
 sudo cp modapache2.conf /etc/apache2/apache2.conf
+
+sudo apt-get install python3-pip
+
+sudo apt-get install python3-microstacknode
