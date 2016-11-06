@@ -13,3 +13,6 @@ sudo cp modapache2.conf /etc/apache2/apache2.conf
 sudo apt-get install python3-pip
 
 sudo apt-get install python3-microstacknode
+
+sudo apt-get install gpsd gpsd-clients python-gps
+##see https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/setting-everything-up
