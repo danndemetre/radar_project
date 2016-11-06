@@ -7,8 +7,8 @@
 
 	while( $row = mysql_fetch_array($res) )
 		array_push($result, array('name' => $row[0], 
-                                  'age' => $row[1],
-								  'company' => $row[2] ) );
+                                          'age' => $row[1],
+				          'company' => $row[2] ) );
 
     echo json_encode(array("result" => $result));
 
